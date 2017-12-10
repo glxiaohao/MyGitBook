@@ -535,6 +535,143 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="31-python">3.1 python</h1>
+<p><img src="../Images/26.jpg" alt="">
+<img src="../Images/27.jpg" alt=""></p>
+<pre><code class="lang-python"><span class="hljs-comment">#coding:utf-8</span>
+<span class="hljs-string">&apos;&apos;&apos;
+python &#x5FEB;&#x901F;&#x6392;&#x5E8F;
+&apos;&apos;&apos;</span>
+<span class="hljs-keyword">if</span> __name__ == <span class="hljs-string">&apos;__main__&apos;</span>:
+    l = [<span class="hljs-number">5</span>,<span class="hljs-number">1</span>,<span class="hljs-number">3</span>,<span class="hljs-number">8</span>,<span class="hljs-number">9</span>,<span class="hljs-number">4</span>,<span class="hljs-number">7</span>,<span class="hljs-number">6</span>]
+    s=<span class="hljs-string">&quot;-&quot;</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">first_sort</span><span class="hljs-params">(l)</span>:</span>
+        flag = l[<span class="hljs-number">-1</span>]
+        i = <span class="hljs-number">-1</span>
+        <span class="hljs-keyword">for</span> j <span class="hljs-keyword">in</span> range(len(l)<span class="hljs-number">-1</span>):
+            <span class="hljs-keyword">if</span> l[j] &gt; flag:
+                <span class="hljs-keyword">pass</span>
+            <span class="hljs-keyword">else</span>:
+                i += <span class="hljs-number">1</span>
+                tmp = l[i]
+                l[i] = l[j]
+                l[j] = tmp
+        print(l)
+        print(<span class="hljs-string">&quot;\n&quot;</span> + <span class="hljs-string">&quot;*&quot;</span>*<span class="hljs-number">20</span> + <span class="hljs-string">&quot;\n&quot;</span>)
+
+        tmp = l[<span class="hljs-number">-1</span>]
+        l[<span class="hljs-number">-1</span>] = l[i+<span class="hljs-number">1</span>]
+        l[i+<span class="hljs-number">1</span>] = tmp
+
+        print(l)
+        print(<span class="hljs-string">&quot;\n&quot;</span> + <span class="hljs-string">&quot;*&quot;</span>*<span class="hljs-number">20</span> + <span class="hljs-string">&quot;\n&quot;</span>)
+
+    first_sort(l)
+
+<span class="hljs-keyword">if</span> __name__ == <span class="hljs-string">&apos;__main__&apos;</span>:
+    l = [<span class="hljs-number">5</span>,<span class="hljs-number">1</span>,<span class="hljs-number">3</span>,<span class="hljs-number">8</span>,<span class="hljs-number">9</span>,<span class="hljs-number">4</span>,<span class="hljs-number">7</span>,<span class="hljs-number">6</span>]
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">first_sort</span><span class="hljs-params">(l)</span>:</span>
+        flag = l[<span class="hljs-number">-1</span>]
+        i = <span class="hljs-number">-1</span>
+        <span class="hljs-keyword">for</span> j <span class="hljs-keyword">in</span> range(len(l)<span class="hljs-number">-1</span>):
+            <span class="hljs-keyword">if</span> l[j] &gt; flag:
+                <span class="hljs-keyword">pass</span>
+            <span class="hljs-keyword">else</span>:
+                i += <span class="hljs-number">1</span>
+                tmp = l[i]
+                l[i] = l[j]
+                l[j] = tmp
+        print(l)
+        print(<span class="hljs-string">&quot;\n&quot;</span> + <span class="hljs-string">&quot;*&quot;</span>*<span class="hljs-number">20</span> + <span class="hljs-string">&quot;\n&quot;</span>)
+
+        tmp = l[<span class="hljs-number">-1</span>]
+        l[<span class="hljs-number">-1</span>] = l[i+<span class="hljs-number">1</span>]
+        l[i+<span class="hljs-number">1</span>] = tmp
+
+        print(l)
+        print(<span class="hljs-string">&quot;\n&quot;</span> + <span class="hljs-string">&quot;*&quot;</span>*<span class="hljs-number">20</span> + <span class="hljs-string">&quot;\n&quot;</span>)
+
+    first_sort(l)
+
+<span class="hljs-keyword">if</span> __name__ == <span class="hljs-string">&apos;__main__&apos;</span>:
+    l = [<span class="hljs-number">5</span>,<span class="hljs-number">1</span>,<span class="hljs-number">3</span>,<span class="hljs-number">8</span>,<span class="hljs-number">9</span>,<span class="hljs-number">4</span>,<span class="hljs-number">7</span>,<span class="hljs-number">6</span>]
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">first_sort</span><span class="hljs-params">(l)</span>:</span>
+        flag = l[<span class="hljs-number">-1</span>]
+        i = <span class="hljs-number">-1</span>
+        <span class="hljs-keyword">for</span> j <span class="hljs-keyword">in</span> range(len(l)<span class="hljs-number">-1</span>):
+            <span class="hljs-keyword">if</span> l[j] &gt; flag:
+                <span class="hljs-keyword">pass</span>
+            <span class="hljs-keyword">else</span>:
+                i += <span class="hljs-number">1</span>
+                tmp = l[i]
+                l[i] = l[j]
+                l[j] = tmp
+        print(l)
+        print(<span class="hljs-string">&quot;\n&quot;</span> + <span class="hljs-string">&quot;*&quot;</span>*<span class="hljs-number">20</span> + <span class="hljs-string">&quot;\n&quot;</span>)
+
+        tmp = l[<span class="hljs-number">-1</span>]
+        l[<span class="hljs-number">-1</span>] = l[i+<span class="hljs-number">1</span>]
+        l[i+<span class="hljs-number">1</span>] = tmp
+
+        print(l)
+        print(<span class="hljs-string">&quot;\n&quot;</span> + <span class="hljs-string">&quot;*&quot;</span>*<span class="hljs-number">20</span> + <span class="hljs-string">&quot;\n&quot;</span>)
+
+    first_sort(l)
+
+
+<span class="hljs-keyword">if</span> __name__ == <span class="hljs-string">&apos;__main__&apos;</span>:
+    l = [<span class="hljs-number">5</span>,<span class="hljs-number">1</span>,<span class="hljs-number">3</span>,<span class="hljs-number">8</span>,<span class="hljs-number">9</span>,<span class="hljs-number">4</span>,<span class="hljs-number">7</span>,<span class="hljs-number">6</span>]
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">first_sort</span><span class="hljs-params">(l)</span>:</span>
+        flag = l[<span class="hljs-number">-1</span>]
+        i = <span class="hljs-number">-1</span>
+        <span class="hljs-keyword">for</span> j <span class="hljs-keyword">in</span> range(len(l)<span class="hljs-number">-1</span>):
+            <span class="hljs-keyword">if</span> l[j] &gt; flag:
+                <span class="hljs-keyword">pass</span>
+            <span class="hljs-keyword">else</span>:
+                i += <span class="hljs-number">1</span>
+                tmp = l[i]
+                l[i] = l[j]
+                l[j] = tmp
+        print(l)
+        print(<span class="hljs-string">&quot;\n&quot;</span> + <span class="hljs-string">&quot;*&quot;</span>*<span class="hljs-number">20</span> + <span class="hljs-string">&quot;\n&quot;</span>)
+
+        tmp = l[<span class="hljs-number">-1</span>]
+        l[<span class="hljs-number">-1</span>] = l[i+<span class="hljs-number">1</span>]
+        l[i+<span class="hljs-number">1</span>] = tmp
+
+        print(l)
+        print(<span class="hljs-string">&quot;\n&quot;</span> + <span class="hljs-string">&quot;*&quot;</span>*<span class="hljs-number">20</span> + <span class="hljs-string">&quot;\n&quot;</span>)
+
+    first_sort(l)
+
+<span class="hljs-keyword">if</span> __name__ == <span class="hljs-string">&apos;__main__&apos;</span>:
+    l = [<span class="hljs-number">5</span>,<span class="hljs-number">1</span>,<span class="hljs-number">3</span>,<span class="hljs-number">8</span>,<span class="hljs-number">9</span>,<span class="hljs-number">4</span>,<span class="hljs-number">7</span>,<span class="hljs-number">6</span>]
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">first_sort</span><span class="hljs-params">(l)</span>:</span>
+        flag = l[<span class="hljs-number">-1</span>]
+        i = <span class="hljs-number">-1</span>
+        <span class="hljs-keyword">for</span> j <span class="hljs-keyword">in</span> range(len(l)<span class="hljs-number">-1</span>):
+            <span class="hljs-keyword">if</span> l[j] &gt; flag:
+                <span class="hljs-keyword">pass</span>
+            <span class="hljs-keyword">else</span>:
+                i += <span class="hljs-number">1</span>
+                tmp = l[i]
+                l[i] = l[j]
+                l[j] = tmp
+        print(l)
+        print(<span class="hljs-string">&quot;\n&quot;</span> + <span class="hljs-string">&quot;*&quot;</span>*<span class="hljs-number">20</span> + <span class="hljs-string">&quot;\n&quot;</span>)
+
+        tmp = l[<span class="hljs-number">-1</span>]
+        l[<span class="hljs-number">-1</span>] = l[i+<span class="hljs-number">1</span>]
+        l[i+<span class="hljs-number">1</span>] = tmp
+
+        print(l)
+        print(<span class="hljs-string">&quot;\n&quot;</span> + <span class="hljs-string">&quot;*&quot;</span>*<span class="hljs-number">20</span> + <span class="hljs-string">&quot;\n&quot;</span>)
+
+    first_sort(l)
+</code></pre>
 
                                 
                                 </section>
@@ -578,7 +715,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"3.1 python","level":"1.4.1","depth":2,"next":{"title":"3.2 c","level":"1.4.2","depth":2,"path":"chapter3/c.md","ref":"chapter3/c.md","articles":[]},"previous":{"title":"第三部分","level":"1.4","depth":1,"path":"chapter3/README.md","ref":"chapter3/README.md","articles":[{"title":"3.1 python","level":"1.4.1","depth":2,"path":"chapter3/python.md","ref":"chapter3/python.md","articles":[]},{"title":"3.2 c","level":"1.4.2","depth":2,"path":"chapter3/c.md","ref":"chapter3/c.md","articles":[]},{"title":"3.3 lua","level":"1.4.3","depth":2,"path":"chapter3/lua.md","ref":"chapter3/lua.md","articles":[]},{"title":"3.4 go","level":"1.4.4","depth":2,"path":"chapter3/go.md","ref":"chapter3/go.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter3/python.md","mtime":"2017-12-10T04:32:09.166Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-12-10T04:32:14.575Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"3.1 python","level":"1.4.1","depth":2,"next":{"title":"3.2 c","level":"1.4.2","depth":2,"path":"chapter3/c.md","ref":"chapter3/c.md","articles":[]},"previous":{"title":"第三部分","level":"1.4","depth":1,"path":"chapter3/README.md","ref":"chapter3/README.md","articles":[{"title":"3.1 python","level":"1.4.1","depth":2,"path":"chapter3/python.md","ref":"chapter3/python.md","articles":[]},{"title":"3.2 c","level":"1.4.2","depth":2,"path":"chapter3/c.md","ref":"chapter3/c.md","articles":[]},{"title":"3.3 lua","level":"1.4.3","depth":2,"path":"chapter3/lua.md","ref":"chapter3/lua.md","articles":[]},{"title":"3.4 go","level":"1.4.4","depth":2,"path":"chapter3/go.md","ref":"chapter3/go.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter3/python.md","mtime":"2017-12-10T06:37:02.159Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-12-10T06:34:26.464Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
