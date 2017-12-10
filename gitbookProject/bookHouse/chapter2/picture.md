@@ -1,9 +1,11 @@
 # 图片
 ## 1. 插入本地图片
-
-
+```
 ![](Images/2.jpg)
-![](../Images/1.jpg)
+```
+### 效果图：
+![](Images/2.jpg)
+
 
 ## 2. 插入网络图片
 ```
@@ -27,5 +29,3 @@
 ```
 ### 效果图：
 <img src="Images/2.jpg" width = "300" height = "200" alt="图片名称" align=center />
-
-| :smile: `:smile` |
