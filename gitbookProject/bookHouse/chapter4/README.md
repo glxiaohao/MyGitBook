@@ -15,3 +15,8 @@ git push origin dev  --> 把当前分支上的内容推送到远程服务器的d
 2. 做完文件编辑的动作
 3. git merge master     --> 让当前的本地的(dev和master分支进行合并)
 4. git push origin master   --> 把最新的内容推送到服务器的master分支
+
+
+将服务器上的分支内容撤销到以前的某个版本的步骤:
+git log      --> 找打commit 的ID号
+git reset --hard <commit_id>
