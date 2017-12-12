@@ -32,14 +32,17 @@ def hello2():
 if __name__ == '__main__':
     app.run()
 ```
-运行:</br>
-http://127.0.0.1:5000/</br>
-http://localhost:5000/hello/</br>
-http://localhost:5000/user/guoling</br>
-http://localhost:5000/aa/bb/cc/dd/
 
+运行:
+~~~
+http://127.0.0.1:5000/
+http://localhost:5000/hello/
+http://localhost:5000/user/guoling
+http://localhost:5000/aa/bb/cc/dd/
+~~~
 
 运行效果图:
+
 ~~~
 不会用快捷键截图
 ~~~
@@ -71,20 +74,18 @@ with app.test_request_context():
 
 if __name__ == '__main__':
     app.run()
+~~~
 
-```
-运行: </br>
-http://127.0.0.1:5000/  </br>
-http://127.0.0.1:5000/login/    </br>
-http://127.0.0.1:5000/login/?next=guoling222    </br>
+运行:
+~~~
+http://127.0.0.1:5000/
+http://127.0.0.1:5000/login/
+http://127.0.0.1:5000/login/?next=guoling222
 http://127.0.0.1:5000/user/guoling222
+~~~
 
 运行效果图:
 ~~~
 不会用快捷键截图
 ~~~
 
-```python
-
-
-```
