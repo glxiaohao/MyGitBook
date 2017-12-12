@@ -11,4 +11,5 @@
 7. apt-get upadte
 8. ps aux|grep redis
 9. ps -ef|grep redis
+
 ```
