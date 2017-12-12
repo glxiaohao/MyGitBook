@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [0. Linux](chapter0/README.md)
 * [1. python基础](chapter1/README.md)
     * [1. 正则表达式](chapter1/zhengze/zhengze.md)
 * [2. markdown](chapter2/README.md)
