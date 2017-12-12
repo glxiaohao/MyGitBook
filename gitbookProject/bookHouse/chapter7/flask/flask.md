@@ -31,21 +31,22 @@ def hello2():
 
 if __name__ == '__main__':
     app.run()
+
 ```
 
 运行:
-~~~
+```
 http://127.0.0.1:5000/
 http://localhost:5000/hello/
 http://localhost:5000/user/guoling
 http://localhost:5000/aa/bb/cc/dd/
-~~~
+```
 
 运行效果图:
 
-~~~
+```
 不会用快捷键截图
-~~~
+```
 
 urlFor.py Demo
 ```python
@@ -74,7 +75,7 @@ with app.test_request_context():
 
 if __name__ == '__main__':
     app.run()
-~~~
+```
 
 运行:
 ~~~
