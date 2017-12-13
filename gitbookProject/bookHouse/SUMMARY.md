@@ -13,6 +13,7 @@
     * [2.6 代码](chapter2/code.md)
     * [2.7 快捷键](chapter2/hotKey.md)
     * [2.8 Markdown链接及脚注](chapter2/link.md)
+    * [2.9 语句块](chapter2/语句块.md)
 * [3. gitbook](chapter3/README.md)
 * [4. git](chapter4/README.md)
 * [5. docker](chapter5/README.md)
