@@ -15,7 +15,7 @@
 * [3. gitbook](chapter3/README.md)
 * [4. git](chapter4/README.md)
 * [5. docker](chapter5/README.md)
-* [6. mysql](chapter6/README.md)
+* [6. MySQL基础](chapter6/README.md)
     * [6.1 安装与使用](chapter6/安装与使用.md) 
     * [6.2 数据完整性](chapter6/数据完整性.md)
     * [6.3 数据库设计](chapter6/数据库设计.md) 
