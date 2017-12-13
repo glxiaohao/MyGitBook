@@ -2,7 +2,7 @@
 
 ## mysql简介
 ```
-查看官方网站
+查看[官方网站](https://www.mysql.com/)
 mysql的标志是一个小海豚
 MySQL是一个关系型数据库管理系统，由瑞典MySQL AB公司开发，后来被Sun公司收购，Sun公司后来又被Oracle公司收购，目前属于Oracle旗下产品
 ```
@@ -29,3 +29,16 @@ Mysql是可以定制的，采用了GPL协议，你可以修改源码来开发自
 复制多线程从机
 ```
  
+ This is an [example link](https://www.baidu.com/).
+
+
+渲染之后的效果：
+I get 10 times more traffic from Google than from Yahoo or MSN.
+
+markdown中的写法是这样的：
+
+I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].  
+
+[1]: http://google.com/        "Google" 
+[2]: http://search.yahoo.com/  "Yahoo Search" 
+[3]: http://search.msn.com/    "MSN Search"
