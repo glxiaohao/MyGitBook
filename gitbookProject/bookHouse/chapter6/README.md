@@ -1,12 +1,13 @@
 # MySQL 基础
 
-mysql简介
-
+## mysql简介
+```
 查看官方网站
 mysql的标志是一个小海豚
 MySQL是一个关系型数据库管理系统，由瑞典MySQL AB公司开发，后来被Sun公司收购，Sun公司后来又被Oracle公司收购，目前属于Oracle旗下产品
-特点
-
+```
+## 特点
+```
 使用C和C++编写，并使用了多种编译器进行测试，保证源代码的可移植性
 支持AIX、FreeBSD、HP-UX、Linux、Mac OS、NovellNetware、OpenBSD、OS/2 Wrap、Solaris、Windows等多种操作系统
 为多种编程语言提供了API。这些编程语言包括C、C++、Python、Java、Perl、PHP、Eiffel、Ruby和Tcl等
@@ -26,3 +27,5 @@ Mysql是可以定制的，采用了GPL协议，你可以修改源码来开发自
 复制全局事务标识
 复制无崩溃从机
 复制多线程从机
+```
+ 
