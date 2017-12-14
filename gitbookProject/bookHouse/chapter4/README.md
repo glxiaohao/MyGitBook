@@ -20,3 +20,6 @@ git push origin dev  --> 把当前分支上的内容推送到远程服务器的d
 将服务器上的分支内容撤销到以前的某个版本的步骤:
 git log      --> 找打commit 的ID号
 git reset --hard <commit_id>
+
+
+git push origin HEAD:rsa_dev_rc
