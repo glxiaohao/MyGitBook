@@ -1,11 +1,13 @@
-# MySQL 基础
+# MySQL
 
 ## mysql简介
 
 
 - 查看[官方网站](https://www.mysql.com/). 
 - mysql的标志是一个小海豚
-- MySQL是一个关系型数据库管理系统，由瑞典MySQL AB公司开发，后来被Sun公司收购，Sun公司后来又被Oracle公司收购，目前属于Oracle旗下产品
+- [MySQL](#mysql)
+    - [mysql简介](#mysql%E7%AE%80%E4%BB%8B)
+    - [特点](#%E7%89%B9%E7%82%B9)
 
 ## 特点
 - 使用C和C++编写，并使用了多种编译器进行测试，保证源代码的可移植性
