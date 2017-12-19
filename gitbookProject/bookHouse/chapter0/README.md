@@ -16,8 +16,6 @@ cp AnHuiTest.py  AnHuiTest2.py
 2. 复制文件夹：
 -  cp -r /home/usera/* /mnt/temp
 -  cp -r guoling guoling2
-
-![](images/文件组.png)
 - [查看端口所占用的进程号]()
 ```
 lsof -i:35729
