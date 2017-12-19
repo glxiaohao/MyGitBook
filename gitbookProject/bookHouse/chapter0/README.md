@@ -8,8 +8,9 @@ rm test.txt
     -f 就是直接强行删除，不作任何提示的意思
     -i 以进行交互式方式执行
 2. 删除文件夹：
-rm -rf update/![](images/文件组.png)
+rm -rf update/
 ```
+![](images/文件组.png)
 - [查看端口所占用的进程号]()
 ```
 lsof -i:35729
@@ -134,6 +135,7 @@ grep
     正则匹配:
         ^a        ⾏⾸,搜寻以 m 开头的⾏； grep -n '^a' 1.txt
         ke$       ⾏尾,搜寻以 ke 结束的⾏； grep -n 'ke$' 1.txt
+```
 
 - [telnet 与 ping 命令的区别]()
 ```
