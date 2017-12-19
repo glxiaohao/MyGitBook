@@ -134,17 +134,20 @@ grep
     正则匹配:
         ^a        ⾏⾸,搜寻以 m 开头的⾏； grep -n '^a' 1.txt
         ke$       ⾏尾,搜寻以 ke 结束的⾏； grep -n 'ke$' 1.txt
+
+- [telnet 与 ping 命令的区别]()
 ```
-- [telnet 34.64.20.32 18001]()
-- http://134.64.20.32:18001/tyyy/broadbandYearpayQry  
-- 这个服务访问不了
-- 答:1.这个地址是DCN地址，只有在服务器行才能开通网络权限，如果准1和生产环境网络不通告诉我我去申请开通
-   2.镜像库不是你的准1和生产服务器，镜像库服务器不需要访问对方地址的权限
-- 用telnet ping需要访问的服务 
-- telnet 34.64.20.32 18001
-```
-- []()
-```
+telnet 语法：telnet ip port
+
+例子: telnet 34.64.20.32 18001
+
+ping 语法: ping ip
+
+例子：ping 34.64.20.32  或者 ping http://www.baidu.com
+
+总结:
+1. telnet 是检测某台机器的某个程序能否访问
+1. ping   是检测某台机器能否访问
 ```
 - []()
 ```
