@@ -10,6 +10,16 @@ rm test.txt
 2. 删除文件夹：
 rm -rf update/
 ```
+- [复制文件和复制文件夹]()
+```
+1. 复制文件：
+cp AnHuiTest.py  AnHuiTest2.py
+2. 复制文件夹：
+cp -r /home/usera/* /mnt/temp
+
+cp -r guoling guoling2
+```
+
 ![](images/文件组.png)
 - [查看端口所占用的进程号]()
 ```
