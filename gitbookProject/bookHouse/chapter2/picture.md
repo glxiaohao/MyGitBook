@@ -29,3 +29,13 @@
 ```
 ### 效果图：
 <img src="Images/2.jpg" width = "300" height = "200" alt="图片名称" align=center />
+
+- [(qq快捷键)截图]()
+```
+ctrl+alt+a：(qq快捷键)截图   
+
+ctrl+alt+v:粘贴
+```
+![Alt text](images/1.png "说明：这是图片1")
+指定你想要存放的路径即可:
+![Alt text](images/2.png "说明：这是图片1")
