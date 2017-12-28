@@ -48,6 +48,8 @@
     * [10.2 tornado](chapter7/tornado/tornado.md)
     * [10.3 flask](chapter7/flask/flask.md)
     * [10.4 gevent](chapter7/gevent/gevent.md)
+        * [10.4.1 确定性](chapter7/gevent/确定性.md)
+        * [10.4.2 SSLSocket](chapter7/gevent/SSLSocket.md)
 * [11. rabbitmq](chapter8/README.md)
 * [12. lua](chapter9/README.md)
 * [13. javasript](chapter10/README.md)
