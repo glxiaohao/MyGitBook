@@ -2,9 +2,10 @@
 
 * [Introduction](README.md)
 * [0. Linux](chapter0/README.md)
+    * [0.1 证书生成](chapter0/zhengshu/zhengshu.md)
 * [1. python基础](chapter1/README.md)
-    * [1. 正则表达式](chapter1/zhengze/zhengze.md)
-    * [2. 环境变量配置](chapter1/path/path.md)
+    * [1.1 正则表达式](chapter1/zhengze/zhengze.md)
+    * [2.1 环境变量配置](chapter1/path/path.md)    
 * [2. markdown](chapter2/README.md)
     * [2.1 标题](chapter2/title.md)
     * [2.2 列表](chapter2/list.md)
