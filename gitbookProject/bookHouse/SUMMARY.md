@@ -7,6 +7,7 @@
     * [1.1 正则表达式](chapter1/zhengze/zhengze.md)
     * [1.2 环境变量配置](chapter1/path/path.md)
     * [1.3 类](chapter1/class/class.md)
+    * [1.4 导包和name的用法](chapter1/bao/bao.md)
 * [2. markdown](chapter2/README.md)
     * [2.1 标题](chapter2/title.md)
     * [2.2 列表](chapter2/list.md)
