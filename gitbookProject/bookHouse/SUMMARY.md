@@ -60,4 +60,6 @@
 * [16. c++](chapter13/README.md)
 * [17. android](chapter14/README.md)
 * [18. cocos2dx](chapter15/README.md)
+* [19. python](chapter15/README.md)
+    * [10.4 文件操作](chapter7/python/file.md)
 
