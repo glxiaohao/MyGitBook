@@ -62,4 +62,5 @@
 * [18. cocos2dx](chapter18/README.md)
 * [19. python](chapter19/README.md)
     * [19.1 文件操作](chapter19/python/file.md)
+    * [19.2 字符串操作](chapter19/python/字符串处理1.md)
 
